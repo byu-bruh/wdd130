@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Giving divs colors so you SEE their block shape */
+        .header {
+            background: #4CAF50;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        .content {
+            background: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            background: #2196F3;
+            padding: 10px;
+        }
+
+        /* Styling spans so they pop inside the text */
+        .highlight-red {
+            background: #ffcccc;
+            color: #990000;
+            font-weight: bold;
+        }
+
+        .highlight-blue {
+            background: #cce5ff;
+            color: #004080;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- DIV 1: Block - takes full width, stacks vertically -->
+    <div class="header">
+        <h2>My Website Header</h2>
+    </div>
+
+    <!-- DIV 2: Block - takes full width -->
+    <div class="content">
+        <p>
+            This is a normal paragraph.
+            <!-- SPAN: Inline - sits inside the text, no line break -->
+            <span class="highlight-red">this red span</span> stays in the same line,
+            and <span class="highlight-blue">this blue span</span> also sits right here.
+        </p>
+        <p>
+            Spans only take up the space they need (their content's width).
+        </p>
+    </div>
+
+    <!-- DIV 3: Block - takes full width, stacks below -->
+    <div class="footer">
+        <p>Footer - Copyright 2026</p>
+    </div>
+
+</body>
+
+</html>
