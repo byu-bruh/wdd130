@@ -39,7 +39,7 @@ aside {
 }
 
 img aside {
-    width: 200px;
+    width: 500px;
     height: auto;
 }
 
@@ -56,4 +56,5 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    width: 400px;
 }
