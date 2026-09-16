@@ -13,7 +13,7 @@ h1 {
     color: steelblue;
 }
 
-.profile-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -34,7 +34,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-
 }
 
 aside img {
